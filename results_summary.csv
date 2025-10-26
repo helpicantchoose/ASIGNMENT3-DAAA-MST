@@ -1,0 +1,33 @@
+Graph Name,Algorithm,MST Cost,Vertices,Edges,Detailed Metrics,Average Execution Time (ms)
+small_graph_sparse,Prim,19,4,5,"{
+  'key_comparisons': 32
+}",0,0041
+small_graph_sparse,Kruskal,19,4,5,"{
+  'edge_sorts': 1,
+  'find_operations': 18,
+  'union_operations': 3
+}",0,0055
+medium_graph_A,Prim,48,10,15,"{
+  'key_comparisons': 200
+}",0,0063
+medium_graph_A,Kruskal,48,10,15,"{
+  'edge_sorts': 1,
+  'find_operations': 69,
+  'union_operations': 9
+}",0,0049
+large_graph_sparse,Prim,218,25,31,"{
+  'key_comparisons': 1250
+}",0,0445
+large_graph_sparse,Kruskal,218,25,31,"{
+  'edge_sorts': 1,
+  'find_operations': 176,
+  'union_operations': 24
+}",0,0068
+disconnected_graph,Prim,6,5,3,"{
+  'key_comparisons': 35
+}",0,0011
+disconnected_graph,Kruskal,8,5,3,"{
+  'edge_sorts': 1,
+  'find_operations': 12,
+  'union_operations': 3
+}",0,0029
