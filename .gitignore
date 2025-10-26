@@ -1,0 +1,15 @@
+# IntelliJ IDEA
+.idea/
+
+# Maven build output
+target/
+
+# Generated files
+*.log
+output.json
+results_summary.csv
+
+# Screenshot files
+*.png
+*.jpg
+*.jpeg
